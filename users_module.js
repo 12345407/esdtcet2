@@ -17,7 +17,7 @@ transport: Number,
 dealer: Number,
 cycle: Number,
 price: Number,
-nutrition String
+nutrition: String
 })
 //Step 3: Create collection Object (model)
 // MAPPING
