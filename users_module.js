@@ -8,9 +8,16 @@ mongoose.connect(conn_str, { useNewUrlParser: true, useUnifiedTopology: true })
 .catch( (error) => console.log(error) );
 //Step 2: Create Schema (Java Class)
 const userSchema = new mongoose.Schema({
-name: String,
-age: Number,
-city: String
+area: Number,
+plants: Number,
+type: String,
+electricity: Number,
+labour: Number,
+transport: Number,
+dealer: Number,
+cycle: Number,
+price: Number,
+nutrition String
 })
 //Step 3: Create collection Object (model)
 // MAPPING
