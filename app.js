@@ -7,7 +7,7 @@ app.use(express.json());
 var cors = require('cors');
 app.use(cors());
 app.get("/", (req, res) => {
-    res.send("Return on investment..");
+    res.send("Hydrophonic Return on Investment (ROI) Calculator...");
 });
 app.get("/user", async (req, res) => {
     let data = await User.find().sort({ _id: -1 });
